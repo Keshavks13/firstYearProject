@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project:KeshavSinghania</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+<body>
+   
+    <header>
+        <div class="slideBar">
+            <ul>
+                <li onclick="closeSlider()"><a href="#""><i class='bx bxl-twitter'></i></a></li>
+                <li><a href="https://www.linkedin.com/in/keshav-singhania-815943284/">LinkedIn</a></li>
+                <li><a href="https://www.youtube.com/@MrclasherFF">Youtube</a></li>
+                <li><a href="https://www.instagram.com/keshavks__">Instagram</a></li>
+                <li><a href="https://github.com/keshavSinghania">GitHub</a></li>
+            </ul>
+        </div>
+        <div class="navDiv">
+            <div class="logoDiv">Keshav <span>Singhania</span></div>
+            <div class="linksDiv">
+                <ul class="linkList">
+                    <li><a href="https://www.linkedin.com/in/keshav-singhania-815943284/">LinkedIn</a></li>
+                    <li><a href="https://www.youtube.com/@MrclasherFF">Youtube</a></li>
+                    <li><a href="https://www.instagram.com/keshavks__">Instagram</a></li>
+                    <li><a href="https://github.com/keshavSinghania">GitHub</a></li>
+                    <i onclick="changeTheme();" class="fa-solid fa-palette">theme</i>
+                    <i onclick="openSlider();" class='bx bxl-twitter'></i>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="headlineDiv">
+            <h2>HY,This Is <span>Keshav Singhania</span></h2>
+            <h3><span>Here are </span>some minor <span>JavaScript projects I've </span>worked on.</h3>
+            <img src="jocker.png" alt="">
+            <h3>Catch,My Ball To <span>See Magic</span></h3>
+        </div>
+        <div class="projectBallsDiv">
+            <a href="weather/weather.html"><div class="projectBall1 projectBalls"><h3>Weather</h3></div></a>
+            <a href="portfolio/portfolio.html"><div class="projectBall2 projectBalls"><h3>PORTFOLIO</h3></div></a>
+            <a href="toDoList/toDoList.html"><div class="projectBall3 projectBalls"><h3>TO DO LIST<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3></div></a>
+            <a href="memoryGame/memoryGame.html"><div class="projectBall4 projectBalls"><h3>MemoryGame</h3></div></a>
+            
+        </div>
+    </main>
+    <loader>
+        <div class="loader"></div>
+    </loader>
+</main>
+</body>
+<script src="index.js"></script>
+<script src="theme.js"></script>
+</html>
